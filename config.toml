@@ -1,7 +1,7 @@
-title = "oltdaniel"
+title = "dfe's website"
 
 # The URL the site will be built for
-base_url = "https://oltdaniel.github.io/dose"
+base_url = "https://www.imakestuff.fyi"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -29,8 +29,8 @@ dark_theme = "github-dark"
 
 [extra]
 social_media = [
-    { name = "GitHub", url = "https://github.com/oltdaniel" },
-    { name = "Twitter", url = "https://twitter.com/@twitter" },
-    { name = "Mastodon", url = "https://mastodon.social/@Mastodon", rel = "me" }
+    { name = "using a modified dose theme", url = "https://github.com/oltdaniel/dose" },
+    { name = "github", url = "https://github.com/diflouroethane" },
+    { name = "website source", url = "https://github.com/diflouroethane/zola-website"}
 ]
 default_theme = "dark"

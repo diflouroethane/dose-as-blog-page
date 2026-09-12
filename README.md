@@ -3,8 +3,7 @@
 ![](screenshot.png?raw=true)
 
 > [!IMPORTANT]
-> This project is in maintenance mode and will be archived. Only critical updates will be applied.
-
+> This is is a fork of the original (https://github.com/oltdaniel/dose
 ## Installation
 
 First install the theme into the `themes` directory with one of these options:
@@ -113,6 +112,9 @@ $separator-decoration: "//////";
 
 ## License & Contributors
 
-![GitHub](https://img.shields.io/github/license/oltdaniel/dose)
 
-This project was created by [Daniel Oltmanns](https://github.com/oltdaniel) and has been improved by these [contributors](https://github.com/oltdaniel/dose/graphs/contributors).
+![GitHub](https://img.shields.io/github/license/diflouroethane/dose-as-blog-page)
+
+
+
+The original project was created by [Daniel Oltmanns](https://github.com/oltdaniel) and was improved by these [contributors](https://github.com/oltdaniel/dose/graphs/contributors).
