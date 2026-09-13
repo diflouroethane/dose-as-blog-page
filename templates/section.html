@@ -8,6 +8,12 @@
         </blockquote>
         {% endif %}
         {% for page in section.pages %}
+            {% if "favorite" in page.taxonomies.tags %}
+            <a href="{{page.permalink | safe}}">hi</a>
+            <hr>
+            {% endif %}
+        {% endfor %}
+        {% for page in section.pages %}
             <article onclick="redirect('{{ page.permalink | safe }}')">
                 <h3>{{ page.title }}</h3>
                 <time>{{ page.date }}</time>
@@ -21,6 +27,7 @@
                     {% if page.taxonomies.tags and page.taxonomies.tags | length > 0 %}
                         {% for tag in page.taxonomies.tags %}
                             <span class="tag">{{ tag }}</span>
+
                         {% endfor %}
                     {% endif %}
                 </div>
